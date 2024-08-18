@@ -12,60 +12,201 @@ html {
   font-family: "Gellion", sans-serif;
 }
 
-@media (max-width: 624px) {
-  .background-container {
-    background-image: url("../img/VIVIENDA_DIGITAL_IMAGEN.png");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
+.background-container {
+  background-image: url("../img/VIVIENDA_DIGITAL_IMAGEN.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
 
-  .text-content {
-    color: black;
-    padding-left: 20px;
-    width: 40%;
-    box-sizing: border-box;
-  }
+.text-content {
+  padding-top: 10%;
+  color: black;
+  padding-left: 40px;
+  width: 40%;
+  box-sizing: border-box;
+}
 
+h1 {
+  font-size: 230%;
+  margin: 0;
+  color: #001b4c;
+  line-height: 1.1;
+}
+
+.divider {
+  border: 0;
+  height: 3px;
+  background-color: #3399ff;
+  margin: 5px 0 25px 0;
+}
+
+p {
+  font-size: 190%;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.cta-button {
+  margin-top: 80px;
+  padding: 10px 20px;
+  font-size: 150%;
+  color: white;
+  background: linear-gradient(to bottom, #3399ff, #306ccb);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.text-content-movil {
+  display: none;
+}
+
+@media (max-width: 827px) {
   h1 {
-    font-size: 100%;
-    margin: 0;
-    color: #001b4c;
-    line-height: 1.1;
-  }
-
-  .divider {
-    border: 0;
-    height: 3px;
-    background-color: #3399ff;
-    margin: 5px 0 20px 0;
+    font-size: 200%;
   }
 
   p {
-    font-size: 100%;
-    margin: 0;
-    line-height: 1.1;
+    font-size: 190%;
+  }
+
+  .cta-button {
+    margin-top: 80px;
+    padding: 10px 20px;
+    font-size: 130%;
+  }
+
+  .text-content {
+    padding-top: 15%;
+    width: 45%;
+  }
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 190%;
+  }
+
+  p {
+    font-size: 180%;
+  }
+
+  .cta-button {
+    margin-top: 60px;
+    padding: 10px 20px;
+    font-size: 120%;
+  }
+
+  .text-content {
+    padding-top: 17%;
+    width: 45%;
+  }
+}
+
+@media (max-width: 624px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 110%;
+  }
+
+  p {
+    font-size: 110%;
   }
 
   .cta-button {
     margin-top: 40px;
-    padding: 8px 20px;
-    font-size: 100%;
-    color: white;
-    background: linear-gradient(to bottom, #3399ff, #306ccb);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease;
+    padding: 10px 20px;
+    font-size: 90%;
   }
 
-  .text-content-movil {
-    display: none;
+  .text-content {
+    padding-top: 5%;
+    padding-left: 25px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 100%;
+  }
+
+  p {
+    font-size: 100%;
+  }
+
+  .cta-button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 70%;
+  }
+
+  .text-content {
+    padding-top: 7%;
+    padding-left: 25px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 410px) {
+  h1 {
+    font-size: 90%;
+  }
+
+  p {
+    font-size: 90%;
+  }
+
+  .cta-button {
+    margin-top: 45px;
+    padding: 7px 20px;
+    font-size: 55%;
+  }
+
+  .text-content {
+    padding-top: 8%;
+    padding-left: 20px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 340px) {
+  h1 {
+    font-size: 90%;
+  }
+
+  p {
+    font-size: 90%;
+  }
+
+  .cta-button {
+    margin-top: 40px;
+    padding: 7px 20px;
+    font-size: 50%;
+  }
+
+  .text-content {
+    padding-top: 8%;
+    padding-left: 15px;
+    width: 45%;
   }
 }
 
@@ -92,17 +233,18 @@ html {
   }
 
   .text-content {
+    padding-top: 10%;
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 5px 0;
     width: 50%;
   }
 
   .cta-button {
-    margin-top: auto;
-    padding: 10px 15px;
-    font-size: 70%;
+    margin-top: 40px;
+    padding: 8px 15px;
+    font-size: 60%;
   }
 
   .divider {
@@ -111,10 +253,10 @@ html {
   }
 }
 
-@media (max-width: 244px) {
+@media (max-width: 270px) {
   .background-container {
     height: 48vh; /* Ocupa el 50% del alto del viewport */
-    background-position: right center;
+    background-position: -280px center;
   }
   .text-content {
     height: 52vh; /* Ocupa el otro 50% del alto del viewport */
@@ -155,6 +297,96 @@ html {
   .cta-button {
     font-size: 70%;
     padding: 10px 20px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 234px) {
+  .background-container {
+    background-position: -300px center;
+  }
+  .text-content {
+    padding-left: 20px; /* Ajusta el padding según necesites */
+    width: 100%; /* Asegura que ocupe todo el ancho en móviles */
+  }
+
+  .text-content-movil {
+    margin-top: 10px;
+    padding: 0 30px;
+  }
+
+  h1 {
+    font-size: 90%;
+  }
+
+  p {
+    font-size: 85%;
+    padding: 5px 10px;
+  }
+
+  .cta-button {
+    font-size: 60%;
+    padding: 10px 20px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 201px) {
+  .background-container {
+    background-position: -320px center;
+  }
+  .text-content {
+    padding-left: 20px; /* Ajusta el padding según necesites */
+    width: 100%; /* Asegura que ocupe todo el ancho en móviles */
+  }
+
+  .text-content-movil {
+    margin-top: 10px;
+    padding: 0 30px;
+  }
+
+  h1 {
+    font-size: 80%;
+  }
+
+  p {
+    font-size: 75%;
+    padding: 5px 10px;
+  }
+
+  .cta-button {
+    font-size: 55%;
+    padding: 10px 10px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 185px) {
+  .background-container {
+    background-position: -340px center;
+  }
+  .text-content {
+    padding-left: 20px; /* Ajusta el padding según necesites */
+    width: 100%; /* Asegura que ocupe todo el ancho en móviles */
+  }
+
+  .text-content-movil {
+    margin-top: 10px;
+    padding: 0 30px;
+  }
+
+  h1 {
+    font-size: 70%;
+  }
+
+  p {
+    font-size: 70%;
+    padding: 5px 10px;
+  }
+
+  .cta-button {
+    font-size: 50%;
+    padding: 10px 10px;
     margin-top: 5px;
   }
 }
