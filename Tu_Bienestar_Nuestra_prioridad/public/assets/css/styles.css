@@ -396,8 +396,8 @@ p {
 @media (max-width: 244px) {
   .background-container {
     height: 45vh; /* Ocupa el 50% del alto del viewport */
-    background-position: -230px center;
-    background-size: 500px;
+    background-position: -120px center;
+    background-size: 370px;
   }
   .text-content {
     height: 55vh; /* Ocupa el otro 50% del alto del viewport */
@@ -443,6 +443,12 @@ p {
 }
 
 @media (max-width: 205px) {
+  .background-container {
+    height: 45vh; /* Ocupa el 50% del alto del viewport */
+    background-position: -160px center;
+    background-size: 370px;
+  }
+
   h1 {
     font-size: 120%;
     text-align: center;
@@ -462,6 +468,11 @@ p {
 }
 
 @media (max-width: 196px) {
+  .background-container {
+    height: 45vh; /* Ocupa el 50% del alto del viewport */
+    background-position: -170px center;
+    background-size: 370px;
+  }
   h1 {
     font-size: 120%;
     text-align: center;
