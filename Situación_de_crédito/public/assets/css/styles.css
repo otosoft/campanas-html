@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Gellion";
+  src: url("../fonts/Gelion.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Gellion", sans-serif;
+}
+
+@media (max-width: 624px) {
+  .background-container {
+    background-image: url("../img/VIVIENDA_DIGITAL_IMAGEN.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .text-content {
+    color: black;
+    padding-left: 20px;
+    width: 40%;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 100%;
+    margin: 0;
+    color: #001b4c;
+    line-height: 1.1;
+  }
+
+  .divider {
+    border: 0;
+    height: 3px;
+    background-color: #3399ff;
+    margin: 5px 0 20px 0;
+  }
+
+  p {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .cta-button {
+    margin-top: 40px;
+    padding: 8px 20px;
+    font-size: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #3399ff, #306ccb);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+
+  .text-content-movil {
+    display: none;
+  }
+}
+
+@media (max-width: 304px) {
+  h1 {
+    font-size: 90%;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 80%;
+    line-height: 1.1;
+  }
+
+  .text-content {
+    padding-left: 5px;
+  }
+
+  .background-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: baseline;
+  }
+
+  .text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 50%;
+  }
+
+  .cta-button {
+    margin-top: auto;
+    padding: 10px 15px;
+    font-size: 70%;
+  }
+
+  .divider {
+    width: 70%;
+    margin: 5px 0 15px 0;
+  }
+}
+
+@media (max-width: 244px) {
+  .background-container {
+    height: 48vh; /* Ocupa el 50% del alto del viewport */
+    background-position: right center;
+  }
+  .text-content {
+    height: 52vh; /* Ocupa el otro 50% del alto del viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    padding-left: 20px; /* Ajusta el padding según necesites */
+    width: 100%; /* Asegura que ocupe todo el ancho en móviles */
+  }
+
+  .text-content {
+    display: none;
+  }
+
+  .text-content-movil {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una sola columna */
+    align-items: center; /* Centra horizontalmente todos los elementos */
+    margin-top: 10px;
+    padding: 0 30px;
+  }
+
+  h1 {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  p {
+    font-size: 95%;
+    text-align: center;
+    padding: 5px 10px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .cta-button {
+    font-size: 70%;
+    padding: 10px 20px;
+    margin-top: 5px;
+  }
+}
