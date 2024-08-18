@@ -14,7 +14,7 @@ html {
 
 @media (max-width: 624px) {
   .background-container {
-    background-image: url("../img/VIVIENDA_DIGITAL_IMAGEN.png");
+    background-image: url("../img/Mask_Group.png");
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -32,7 +32,7 @@ html {
   }
 
   h1 {
-    font-size: 100%;
+    font-size: 150%;
     margin: 0;
     color: #001b4c;
     line-height: 1.1;
@@ -42,19 +42,19 @@ html {
     border: 0;
     height: 3px;
     background-color: #3399ff;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 15px 0;
   }
 
   p {
-    font-size: 100%;
+    font-size: 110%;
     margin: 0;
     line-height: 1.1;
   }
 
   .cta-button {
-    margin-top: 40px;
-    padding: 8px 20px;
-    font-size: 100%;
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 90%;
     color: white;
     background: linear-gradient(to bottom, #3399ff, #306ccb);
     border: none;
@@ -71,17 +71,15 @@ html {
 
 @media (max-width: 305px) {
   h1 {
-    font-size: 90%;
-    line-height: 1.1;
+    font-size: 100%;
   }
 
   p {
     font-size: 80%;
-    line-height: 1.1;
   }
 
   .text-content {
-    padding-left: 5px;
+    padding-left: 10px;
   }
 
   .background-container {
@@ -95,29 +93,29 @@ html {
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 30px 0;
     width: 50%;
   }
 
   .cta-button {
-    margin-top: auto;
-    padding: 10px 15px;
-    font-size: 70%;
+    margin-top: 40px;
+    padding: 8px 15px;
+    font-size: 80%;
   }
 
   .divider {
     width: 70%;
-    margin: 5px 0 15px 0;
+    margin: 5px 0 10px 0;
   }
 }
 
 @media (max-width: 244px) {
   .background-container {
-    height: 48vh; /* Ocupa el 50% del alto del viewport */
+    height: 45vh; /* Ocupa el 50% del alto del viewport */
     background-position: right center;
   }
   .text-content {
-    height: 52vh; /* Ocupa el otro 50% del alto del viewport */
+    height: 55vh; /* Ocupa el otro 50% del alto del viewport */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centra verticalmente el contenido */
@@ -133,19 +131,19 @@ html {
     display: flex;
     flex-direction: column; /* Alinea los elementos en una sola columna */
     align-items: center; /* Centra horizontalmente todos los elementos */
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 0 30px;
   }
 
   h1 {
-    font-size: 100%;
+    font-size: 120%;
     text-align: center;
   }
 
   p {
-    font-size: 95%;
+    font-size: 85%;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 15px;
   }
 
   .divider {
@@ -154,7 +152,7 @@ html {
 
   .cta-button {
     font-size: 70%;
-    padding: 10px 20px;
+    padding: 10px 40px;
     margin-top: 5px;
   }
 }
