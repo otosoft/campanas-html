@@ -113,7 +113,7 @@ p {
 @media (max-width: 624px) {
   .background-container {
     background-size: 624px;
-    background-position: top center;
+    background-position: 20% top;
     background-repeat: no-repeat;
   }
 
@@ -141,7 +141,7 @@ p {
 @media (max-width: 480px) {
   .background-container {
     background-size: 624px;
-    background-position: top center;
+    background-position: 20% top;
     background-repeat: no-repeat;
   }
 
@@ -167,6 +167,12 @@ p {
 }
 
 @media (max-width: 410px) {
+  .background-container {
+    background-size: 624px;
+    background-position: 35% top;
+    background-repeat: no-repeat;
+  }
+
   h1 {
     font-size: 90%;
   }
@@ -189,6 +195,11 @@ p {
 }
 
 @media (max-width: 340px) {
+  .background-container {
+    background-size: 624px;
+    background-position: 50% top;
+    background-repeat: no-repeat;
+  }
   h1 {
     font-size: 90%;
   }
@@ -211,6 +222,11 @@ p {
 }
 
 @media (max-width: 305px) {
+  .background-container {
+    background-size: 624px;
+    background-position: 60% top;
+    background-repeat: no-repeat;
+  }
   h1 {
     font-size: 90%;
     line-height: 1.1;
@@ -233,7 +249,7 @@ p {
   }
 
   .text-content {
-    padding-top: 10%;
+    padding-top: 3%;
     flex: 1;
     display: flex;
     flex-direction: column;
