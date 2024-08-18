@@ -337,7 +337,7 @@ p {
     flex-direction: column;
     height: 100vh;
     align-items: baseline;
-    background-size: cover;
+    background-size: 500px;
   }
 
   .text-content {
