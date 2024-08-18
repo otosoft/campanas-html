@@ -12,37 +12,181 @@ html {
   font-family: "Gellion", sans-serif;
 }
 
-@media (max-width: 624px) {
+.background-container {
+  background-image: url("../img/Mask_Group.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.text-content {
+  padding-top: 5%;
+  color: black;
+  padding-left: 40px;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 300%;
+  margin: 0;
+  color: #001b4c;
+  line-height: 1.1;
+}
+
+.divider {
+  border: 0;
+  height: 3px;
+  background-color: #3399ff;
+  margin: 5px 0 15px 0;
+}
+
+p {
+  font-size: 250%;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.cta-button {
+  margin-top: 50px;
+  padding: 10px 30px;
+  font-size: 200%;
+  color: white;
+  background: linear-gradient(to bottom, #3399ff, #306ccb);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.text-content-movil {
+  display: none;
+}
+
+@media (max-width: 1085px) {
+  h1 {
+    font-size: 280%;
+  }
+
+  p {
+    font-size: 230%;
+  }
+
+  .cta-button {
+    font-size: 180%;
+  }
+
   .background-container {
-    background-image: url("../img/Mask_Group.png");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
   }
 
   .text-content {
-    color: black;
+    padding-top: 7%;
+  }
+}
+
+@media (max-width: 1020px) {
+  h1 {
+    font-size: 260%;
+  }
+
+  p {
+    font-size: 210%;
+  }
+
+  .cta-button {
+    font-size: 160%;
+  }
+
+  .background-container {
+  }
+
+  .text-content {
+    padding-top: 8%;
+  }
+}
+
+@media (max-width: 840px) {
+  h1 {
+    font-size: 240%;
+  }
+
+  p {
+    font-size: 190%;
+  }
+
+  .cta-button {
+    font-size: 140%;
+  }
+
+  .background-container {
+  }
+
+  .text-content {
+    padding-top: 9%;
+  }
+}
+
+@media (max-width: 730px) {
+  h1 {
+    font-size: 220%;
+  }
+
+  p {
+    font-size: 170%;
+  }
+
+  .cta-button {
+    font-size: 120%;
+  }
+
+  .background-container {
+  }
+
+  .text-content {
+    padding-top: 13%;
+  }
+}
+
+@media (max-width: 661px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  p {
+    font-size: 150%;
+  }
+
+  .cta-button {
+    font-size: 100%;
+  }
+
+  .background-container {
+  }
+
+  .text-content {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 624px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .text-content {
     padding-left: 20px;
-    width: 40%;
-    box-sizing: border-box;
+    padding-top: 8%;
   }
 
   h1 {
     font-size: 150%;
-    margin: 0;
-    color: #001b4c;
-    line-height: 1.1;
-  }
-
-  .divider {
-    border: 0;
-    height: 3px;
-    background-color: #3399ff;
-    margin: 5px 0 15px 0;
   }
 
   p {
@@ -55,17 +199,122 @@ html {
     margin-top: 30px;
     padding: 10px 30px;
     font-size: 90%;
-    color: white;
-    background: linear-gradient(to bottom, #3399ff, #306ccb);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease;
+  }
+}
+
+@media (max-width: 545px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
 
-  .text-content-movil {
-    display: none;
+  .text-content {
+    padding-left: 20px;
+    padding-top: 12%;
+  }
+
+  h1 {
+    font-size: 140%;
+  }
+
+  p {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .cta-button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 485px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .text-content {
+    padding-left: 20px;
+    padding-top: 14%;
+  }
+
+  h1 {
+    font-size: 130%;
+  }
+
+  p {
+    font-size: 90%;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .cta-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 390px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .text-content {
+    padding-left: 20px;
+    padding-top: 16%;
+  }
+
+  h1 {
+    font-size: 120%;
+  }
+
+  p {
+    font-size: 80%;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .cta-button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 331px) {
+  .background-container {
+    background-size: 624px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .text-content {
+    padding-left: 20px;
+    padding-top: 18%;
+  }
+
+  h1 {
+    font-size: 110%;
+  }
+
+  p {
+    font-size: 70%;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .cta-button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 50%;
   }
 }
 
@@ -109,10 +358,44 @@ html {
   }
 }
 
+@media (max-width: 300px) {
+  h1 {
+    font-size: 90%;
+  }
+
+  p {
+    font-size: 80%;
+  }
+
+  .text-content {
+    padding-top: 10%;
+    padding-left: 10px;
+  }
+
+  .background-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: baseline;
+  }
+
+  .cta-button {
+    margin-top: 40px;
+    padding: 8px 15px;
+    font-size: 60%;
+  }
+
+  .divider {
+    width: 70%;
+    margin: 5px 0 10px 0;
+  }
+}
+
 @media (max-width: 244px) {
   .background-container {
     height: 45vh; /* Ocupa el 50% del alto del viewport */
-    background-position: right center;
+    background-position: -230px center;
+    background-size: 500px;
   }
   .text-content {
     height: 55vh; /* Ocupa el otro 50% del alto del viewport */
@@ -153,6 +436,44 @@ html {
   .cta-button {
     font-size: 70%;
     padding: 10px 40px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 205px) {
+  h1 {
+    font-size: 120%;
+    text-align: center;
+  }
+
+  p {
+    font-size: 80%;
+    text-align: center;
+    padding: 5px 15px;
+  }
+
+  .cta-button {
+    font-size: 55%;
+    padding: 10px 30px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 196px) {
+  h1 {
+    font-size: 120%;
+    text-align: center;
+  }
+
+  p {
+    font-size: 80%;
+    text-align: center;
+    padding: 5px 15px;
+  }
+
+  .cta-button {
+    font-size: 50%;
+    padding: 10px 20px;
     margin-top: 5px;
   }
 }
