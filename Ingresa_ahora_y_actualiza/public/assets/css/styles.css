@@ -488,29 +488,30 @@ p {
 
 @media (max-width: 320px) {
   .background-container {
-    background-position: 10px 0px;
-    background-size: 9rem;
+    background-position: 6px 30px;
+    background-size: 11rem;
   }
 
   h1 {
-    font-size: 70%;
+    font-size: 80%;
     font-weight: normal;
     color: black;
   }
 
   p {
-    font-size: 70%;
+    font-size: 80%;
     font-weight: bold;
     color: #306ccb;
   }
 
   .text-content {
-    padding-top: 4%;
+    padding-top: 12%;
     padding-right: 10px;
+    width: 41%;
   }
 
   .cta-button {
-    padding: 4% 12%;
+    padding: 6% 8%;
     font-size: 45%;
   }
 }

@@ -182,7 +182,7 @@ p {
 
   .text-content {
     padding-left: 20px;
-    padding-top: 8%;
+    padding-top: 5%;
   }
 
   h1 {
@@ -196,8 +196,8 @@ p {
   }
 
   .cta-button {
-    margin-top: 30px;
-    padding: 10px 30px;
+    margin-top: 25px;
+    padding: 8px 30px;
     font-size: 90%;
   }
 }
@@ -337,7 +337,7 @@ p {
     flex-direction: column;
     height: 100vh;
     align-items: baseline;
-    background-size: 500px;
+    background-size: cover;
   }
 
   .text-content {
@@ -360,7 +360,7 @@ p {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 303px) {
   h1 {
     font-size: 90%;
   }
@@ -379,6 +379,7 @@ p {
     flex-direction: column;
     height: 100vh;
     align-items: baseline;
+    background-size: 500px;
   }
 
   .cta-button {
@@ -416,7 +417,7 @@ p {
     display: flex;
     flex-direction: column; /* Alinea los elementos en una sola columna */
     align-items: center; /* Centra horizontalmente todos los elementos */
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0 30px;
   }
 

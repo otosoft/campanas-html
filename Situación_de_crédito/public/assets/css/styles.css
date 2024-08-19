@@ -224,6 +224,54 @@ p {
 @media (max-width: 305px) {
   .background-container {
     background-size: 624px;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-size: 90%;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 80%;
+    line-height: 1.1;
+  }
+
+  .text-content {
+    padding-left: 5px;
+  }
+
+  .background-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: baseline;
+  }
+
+  .text-content {
+    padding-top: 3%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    width: 50%;
+  }
+
+  .cta-button {
+    margin-top: 40px;
+    padding: 8px 15px;
+    font-size: 60%;
+  }
+
+  .divider {
+    width: 70%;
+    margin: 5px 0 15px 0;
+  }
+}
+
+@media (max-width: 303px) {
+  .background-container {
+    background-size: 624px;
     background-position: 60% top;
     background-repeat: no-repeat;
   }
@@ -271,8 +319,9 @@ p {
 
 @media (max-width: 270px) {
   .background-container {
-    height: 48vh; /* Ocupa el 50% del alto del viewport */
-    background-position: -280px center;
+    height: 175px; /* Ocupa el 50% del alto del viewport */
+    background-position: -120px top;
+    background-size: cover;
   }
   .text-content {
     height: 52vh; /* Ocupa el otro 50% del alto del viewport */
@@ -319,7 +368,7 @@ p {
 
 @media (max-width: 234px) {
   .background-container {
-    background-position: -300px center;
+    background-position: -130px center;
   }
   .text-content {
     padding-left: 20px; /* Ajusta el padding según necesites */
@@ -349,7 +398,7 @@ p {
 
 @media (max-width: 201px) {
   .background-container {
-    background-position: -320px center;
+    background-position: -140px center;
   }
   .text-content {
     padding-left: 20px; /* Ajusta el padding según necesites */
@@ -379,7 +428,7 @@ p {
 
 @media (max-width: 185px) {
   .background-container {
-    background-position: -340px center;
+    background-position: -150px center;
   }
   .text-content {
     padding-left: 20px; /* Ajusta el padding según necesites */
