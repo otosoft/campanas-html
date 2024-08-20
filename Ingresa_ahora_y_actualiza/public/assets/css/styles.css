@@ -275,7 +275,7 @@ p {
   }
 }
 
-@media (max-width: 624px) {
+@media (max-width: 634px) {
   .background-container {
     background-size: 18rem;
     background-position: 20px 0px;

@@ -110,9 +110,9 @@ p {
   }
 }
 
-@media (max-width: 624px) {
+@media (max-width: 634px) {
   .background-container {
-    background-size: 624px;
+    background-size: 634px;
     background-position: 20% top;
     background-repeat: no-repeat;
   }
